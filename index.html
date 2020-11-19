@@ -1,0 +1,55 @@
+<title> Proyecto Final - Alberto Juárez</title>
+<canvas id="c"></canvas>
+<div class="topright">
+  <br>
+  <b>Controles</b>
+  <ul>
+    <li>b - Cambiar fondo</li>
+    <li>t - Cambiar textura</li>
+    <li>enter - Movimiento X/Y</li>
+    <li>space - Alternar X/Y </li>
+  </ul>
+</div>
+<div class="bottomright">
+  <h4>Proyecto Final <br> Alberto Juárez - A01281913</h4>
+</div>
+<script src="three.min.js"></script>
+<script src="OrbitControls.js"></script>
+<script src="main.js"></script>
+
+<style type="text/css">
+    body {
+      margin: 0;
+    }
+
+    #c {
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      position:fixed; left:0; top:0; z-index:-1;
+    }
+    .topright {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      width: 250px;
+      height: 170px;
+      font-size: 18px;
+      background: white;
+      text-align: center;
+      border-radius: 25px;
+    }
+
+    .bottomright {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+      width: 250px;
+      height: 85px;
+      font-size: 18px;
+      background: white;
+      text-align: center;
+      border-radius: 25px;
+    }
+
+</style>
