@@ -3,9 +3,11 @@
 ### Proyecto final 
 ### Alberto Juárez - A01281913
 
+## Version en vivo
 
+[https://graficas.albertojuarez.repl.co](https://graficas.albertojuarez.repl.co)
 
-<b>Controles</b>
+## Controles
   <ul>
     <li>b - Cambiar fondo</li>
     <li>t - Cambiar textura</li>
